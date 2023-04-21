@@ -132,3 +132,33 @@ nav{
 .testimonial .container p:nth-child(2){
     float: right;
 }
+.callToAction{
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+}
+.callToAction .container{
+    background-color: #3882F6;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    width: 64%;
+    justify-content: space-evenly;
+    gap: 2%;
+}
+.callToAction .container .text-area{
+    font-size: 18px;
+    color: #F9FAF8;
+}    
+.callToAction .container button{
+    padding: 10px 50px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.callToAction .container .text-area p:nth-child(1){
+    font-weight: bold;
+}
