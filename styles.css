@@ -162,3 +162,9 @@ nav{
 .callToAction .container .text-area p:nth-child(1){
     font-weight: bold;
 }
+.footer{
+    text-align: center;
+    color: #F9FAF8;
+    padding: 5px 0;
+    background-color: #1F2937;
+}
